@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<style>
+    #flip, #panel{
+        padding: 5px;
+        text-align: center;
+        background-color: bisque;
+        border: 4px solid rgb(168, 125, 99);
+    }
+    #panel{
+        padding: 50px;
+        background-color: beige;
+        border: 4px solid rgb(168, 125, 99);
+display: none;
+transition: ease-in-out;
+    }
+</style>
+<script>
+    $(document).ready(function(){
+    $("#flip").click(function(){
+    $("#panel").slideToggle("fast");
+    
+});
+        });
+</script>
+<body>
+    <div id="flip">CLICK ME</div>
+    <br>
+    <div id="panel">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione eius aspernatur officiis dolorum repudiandae, incidunt quo quisquam commodi consectetur similique tempora iure excepturi dolores provident? Nihil hic, iusto nulla fugiat eius eligendi iste a nostrum aliquam esse quibusdam error quos et perspiciatis at provident minus? Similique quidem non delectus pariatur maiores hic illum repudiandae dolorum fuga beatae, aperiam ab corporis, facere sit qui natus minus ea neque exercitationem nostrum sint. Dolorum totam sapiente officiis explicabo reprehenderit illum iure animi quae beatae quos eveniet, distinctio doloribus alias aut, aliquam esse cupiditate id! Sunt esse repellendus voluptas beatae voluptatibus nemo id ea.</div>
+</body>
+</html>

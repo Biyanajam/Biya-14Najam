@@ -1,0 +1,8 @@
+.container{
+    border: 3px solid black;
+    text-align: center;
+}
+.container-fluid{
+    border: 3px solid black;
+    text-align: center;
+}

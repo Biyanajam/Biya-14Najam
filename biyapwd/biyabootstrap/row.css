@@ -1,0 +1,19 @@
+.container{
+    border: 3px solid blanchedalmond;
+
+}
+.row{
+    border: 2px solid rgb(40, 21, 1);
+background-color: bisque;
+justify-content: center;
+color: rgb(49, 45, 23);
+padding: 8px;
+}
+row1
+.col-9{
+    border: 2px solid black;
+}
+.col-3{
+    border: 2px solid black;
+    background-color: rgb(168, 110, 36);
+}

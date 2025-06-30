@@ -1,0 +1,15 @@
+table,td,th,td{
+border: 2px solid black;
+background-color: antiquewhite;
+text-align: center;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+th{
+background-color: rgb(240, 184, 111);
+}
+tr:nth-child(even){
+    background-color: aqua;
+}

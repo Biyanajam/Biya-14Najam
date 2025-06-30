@@ -1,0 +1,176 @@
+body {
+            background-color: #f8d58e;
+        }
+       .logo {
+            width: 10px;
+            height: 10px;
+         
+        }
+        .cart{
+            float: inline-end;
+        }
+        .menu{
+           float: inline-end;
+           padding-top: 5px;
+            
+        }
+        nav {
+             background-color: rgba(139, 69, 19);
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            box-sizing: border-box;
+            
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding-left: 20px;
+            margin: 5px;
+            display: inline-block;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 28px;
+         
+        }
+        nav a:hover {
+            background-color: #251001;
+            border-radius: 5px;
+            padding: 10px;
+            transition: background-color 0.3s ease;
+        }
+       
+        .quote {
+            background: url(main\ picture.jpg) no-repeat center/cover;
+            padding: 100px;
+            text-align: center;
+            color: rgb(252, 252, 252);
+            font-size: 24px;
+            font-weight: bold;
+            border-radius: 10px;   
+            font-family: 'Courier New', Courier, monospace; 
+            border: 2px solid #8B4513;
+            height: 300px;
+        }
+      .search{
+            float: right;
+            margin-right: 20px;
+        }
+      .search-button{
+        float: right;
+        margin-right: 20px;
+        background-color: #8B4513;  
+        padding-top: 0px;
+        padding: 10px; 
+      } 
+       .search-button:hover{
+        background-color:  #251001;
+       }
+     
+     
+      
+input[type="text"] {
+            width: 200px;
+            padding: 5px;
+            border: 2px solid #8B4513;
+            border-radius: 5px;
+            margin: 20px;
+        }
+
+        .specials {
+            padding: 50px;
+            text-align: center;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .product {
+            background:  #d2691e;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+         .product img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;}
+        .product h3 {
+            margin-top: 10px;
+            color: #ffffff;
+        }
+        .product button {
+            background: #8B4513;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .product button:hover {
+            background: #472301;
+             transform: scale(1.05);
+             transition: transform 0.3s ease;}
+             .products p{
+              color: #ffffff;
+             }
+        
+      .quote2 {
+            font-size: 20px;
+            color: #fff;
+            margin-top: 10px;
+             border: 2px solid #8B4513;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgba(139, 69, 19, 0.7);
+
+        }
+        .quote3 {
+            font-size: 30px;
+            color: #ffffff;
+            margin-bottom: 20px;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            border: 2px solid #8B4513;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgba(139, 69, 19, 0.7);
+        }
+        footer {
+  background-image: url(mae-mu-m9pzwmxm2rk-unsplash.jpg);
+
+  background-size: cover;
+  color: white;
+  padding: 40px 20px 20px;
+
+}
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgba(25, 25, 26, 0.6);
+  padding: 20px;
+}
+.footer-columns div {
+  width: 30%;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+.footer-columns ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-columns a {
+  color: white;
+  text-decoration: none;
+}
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 0.9rem;
+  border-top: 1px solid #333;
+}
+
